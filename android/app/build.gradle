@@ -87,9 +87,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace 'com.anonymous.rondalarmecameras'
+    namespace 'com.anonymous.rondalarmecameras2'
     defaultConfig {
-        applicationId 'com.anonymous.rondalarmecameras'
+        applicationId 'com.anonymous.rondalarmecameras2'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -124,10 +124,6 @@ android {
     }
     androidResources {
         ignoreAssetsPattern '!.svn:!.git:!.ds_store:!*.scc:!CVS:!thumbs.db:!picasa.ini:!*~'
-    }
-    compileOptions {
-    	sourceCompatibility JavaVersion.VERSION_1_8
-    	targetCompatibility JavaVersion.VERSION_1_8
     }
 }
 

@@ -1,4 +1,4 @@
-package com.anonymous.rondalarmecameras
+package com.anonymous.rondalarmecameras2
 import expo.modules.splashscreen.SplashScreenManager
 
 import android.os.Build

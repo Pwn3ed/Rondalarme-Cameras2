@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "rondalarme-cameras",
-    "slug": "rondalarme-cameras",
+    "name": "rondalarme-cameras2",
+    "slug": "rondalarme-cameras2",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
-    "scheme": "rondalarmecameras",
+    "scheme": "rondalarmecameras2",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "splash": {
@@ -14,7 +14,8 @@
       "backgroundColor": "#ffffff"
     },
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.anonymous.rondalarmecameras2"
     },
     "android": {
       "adaptiveIcon": {
@@ -22,7 +23,7 @@
         "backgroundColor": "#ffffff"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.anonymous.rondalarmecameras"
+      "package": "com.anonymous.rondalarmecameras2"
     },
     "web": {
       "bundler": "metro",
@@ -34,6 +35,13 @@
     ],
     "experiments": {
       "typedRoutes": true
-    }
+    },
+    "extra": {
+      "router": {},
+      "eas": {
+        "projectId": "90aef0a6-c0c3-402e-be92-dba0ffb5989b"
+      }
+    },
+    "owner": "pwn3ed"
   }
 }

@@ -1,4 +1,4 @@
-package com.anonymous.rondalarmecameras
+package com.anonymous.rondalarmecameras2
 
 import android.app.Application
 import android.content.res.Configuration
